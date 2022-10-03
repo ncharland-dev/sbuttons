@@ -5495,7 +5495,7 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/sourcecodepro/v21/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM4.ttf)
+  src: url(https://fonts.gstatic.com/s/sourcecodepro/v22/HI_diYsKILxRpg3hIP6sJ7fM7PqPMcMnZFqUwX28DMyQhM4.ttf)
     format("truetype");
 }
 .code-btn {
@@ -5584,4 +5584,23 @@ input[type="checkbox"].toggle-btn.xsmall-btn:before {
     box-shadow: 10px -10px 0 -3px black, 10px -10px #ff9f68,
       20px -20px 0 -3px black, 20px -20px #f85959;
   }
+}
+@font-face {
+  font-family: "minecraft";
+  src: url(MinecraftTen-VGORe.ttf);
+}
+.minecraft-btn {
+  font-family: "minecraft";
+  color: white;
+  border: 2px solid black;
+  border-radius: 1px;
+  background: #999 url("https://i.ibb.co/rb2TWXL/bgbtn.png") center / cover;
+  image-rendering: pixelated;
+  text-align: center;
+  text-shadow: 1px 1px #202013cc;
+  box-shadow: inset -2px -2px #0006, inset 2px 2px #fff7;
+}
+.minecraft-btn:hover {
+  color: #ffffa0;
+  text-shadow: 2px 2px #202013cc;
 }
